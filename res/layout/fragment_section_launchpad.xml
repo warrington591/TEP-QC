@@ -1,0 +1,45 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+        <Button
+            android:id="@+id/demo_collection_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="30dp"
+            android:background="#8c4db3"
+            android:text="@string/Rush_Photos"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:typeface="sans" />
+
+        <Button android:id="@+id/demo_external_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#8c4db3"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:typeface="sans"
+            android:text="@string/Rush_Video" />
+        
+        <Button android:id="@+id/notableAlumni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8c4db3"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:typeface="sans"
+            android:text="@string/Notable_Alumni" />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TEP QC</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="mainButton1">Brother</string>
+    <string name="mainButton2">Rush</string>
+    <string name="title_activity_brother_main">Brother Main</string>
+    <string name="title_activity_rush_main">Rush Main</string>
+    <string name="action_search">search</string>
+    <string name="title_activity_about_tep">About Tau Epsilon Phi</string>
+    <string name="title_activity_rush_media">Media</string>
+    <string name="title_activity_rush_events">Rush Events</string>
+    <string name="title_activity_contact_us">Contact Us</string>
+    <string name="title_activity_rush_collection">Rush Collection</string>
+    <string name="dummy_section_text">Section %1d is just a dummy section.</string>
+    <string name="demo_external_activity">Demo External Activity</string>
+    <string name="Rush_Photos">Photos</string>
+    <string name="textView1">What is your status?</string>
+    <string name="storyoftep"> The Story of Tau Epsilon Phi </string>
+    <string name="story_paragraph"></string>
+    <string name="Rush_Video">Rush Trailer</string>
+    <string name="events2014">Events for Fall 2014</string>
+    <string name="Story_title">Tau Epsilon Phi</string>
+    <string name="title_activity_grid_view">Photos Main</string>
+    <string name="title_activity_rush_photo_album">Photo Album</string>
+    <string name="rushPhotoclose">Close</string>
+
+    <string-array name="photoNames">
+        <item>Photo1</item>
+        <item>Photo2</item>
+        <item>Photo3</item>
+        <item>Photo4</item>
+        <item>Photo5</item>
+        <item>Photo6</item>
+        <item>Photo7</item>
+        <item>Photo8</item>
+    </string-array>
+
+    <string name="title_activity_full_image">Photo</string>
+
+    <!-- These strings reside in the brother dashboard section of the app -->
+
+    <string name="title_activity_dashboard_design">Dashboard</string>
+    <string name="title_activity_news_feed">News Feed</string>
+    <string name="title_activity_brother_profile">Brother Profile</string>
+    <string name="title_activity_mixers">Mixers</string>
+    <string name="title_activity_tip_main">Tip Calculator</string>
+    <string name="title_activity_events">Brotherhood Events</string>
+    <string name="title_activity_photos">Photos</string>
+    <string name="Notable_Alumni">Notable Alumni</string>
+
+    <!-- These strings are for the Bill\Tip Splitter -->
+
+    <string name="bill_text_view">Bill Subtotal</string>
+    <string name="bill_edit_text">0.0</string>
+    <string name="bill_tax_text_view">Tax Amount</string>
+    <string name="tip_text_view">Tip Amount (%)</string>
+    <string name="tip_edit_view">0.15</string>
+    <string name="final_bill_text_view">Final Bill</string>
+    <string name="final_bill_edit_view">0.0</string>
+    <string name="change_tip_text_view">Tip Adjustment</string>
+    <string name="peopleAmountTextView">How many people?</string>
+    <string name="individual_text_view">Each Person Pays:</string>
+    <string name="individual_edit_view">0.0</string>
+    <string name="title_activity_galllery">Rush Galllery</string>
+    <string name="title_activity_rush_photos">Photos</string>
+    <string name="title_activity_rush_video">Rush Video</string>
+
+    <!-- These strings are for the Contact Form Splitter -->
+
+    <string name="contact_us_title">Get in contact with us.</string>
+    <string name="contact_us_name">Full Name:</string>
+    <string name="contact_us_email">Email:</string>
+    <string name="contact_us_body">Message:</string>
+    <string name="contact_us_phone"> Phone Number:</string>
+    <string name="contact_us_method">Would you like to be contacted by phone?</string>
+    <string name="contact_us_send">Send</string>
+    <string name="title_activity_rush_contact_us">Message Sent</string>
+    <string name="title_activity_alumni">Notable Alumni</string>
+
+    <!-- These strings are for the Alumni -->
+
+    <string-array name="AlumniNames">
+        <item>Jeff Altman</item>
+        <item>Larry David</item>
+        <item>David Duchovny</item>
+        <item>Larry King</item>
+        <item>Jerry Springer</item>
+        <item>Bryan Clark</item>
+        <item>Ray Kurzweil</item>
+    </string-array>
+    <string-array name="Descriptions">
+        <item> Jeff Altman is an American stand-up comedian and actor who has appeared as a guest on Late Show with David Letterman 40 times.</item>
+        <item> Lawrence Gene "Larry" David is an American actor, writer, comedian, and television producer. He was the co-creator, with Jerry Seinfeld, of the television series Seinfeld, and was its head writer and executive producer from 1989 to 1996. </item>
+        <item> David William Duchovny is an American actor, writer, and director. He is best known for playing Fox Mulder on The X-Files and Hank Moody on Californication, both of which have earned him Golden Globe awards.</item>
+        <item> Larry King is an American television and radio host, actor, voice artist, and comedian whose work has been recognized with awards including two Peabodys and 10 Cable ACE Awards. </item>
+        <item> Gerald Norman "Jerry" Springer is a British-American television presenter, best known as host of the tabloid talk show The Jerry Springer Show since its debut in 1991. </item>
+        <item> Bryan Emmett Clark is an American retired professional wrestler. He is best known for his appearances with World Championship Wrestling, the World Wrestling Federation and All Japan Pro Wrestling.</item>
+        <item> Raymond "Ray" Kurzweil is an American author, scientist, inventor, futurist, and is a director of engineering at Google. </item>
+    </string-array>
+
+    <string name="title_activity_rush_trailer">Rush Trailer</string>
+    
+    
+    <!-- These strings are for the Youtube Rush Videos-->
+    <string name="standalone_player_demo_name">Standalone Player</string>
+  
+    <string name="error_thumbnail_view">There was an error initializing the YouTubeThumbnailView (%1$s)</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+
+    <string name="play_video">Play video</string>
+    <string name="play_playlist">Play playlist</string>
+    <string name="start_index">Start index</string>
+    <string name="start_time">Start time (sec)</string>
+    <string name="autoplay">Autoplay</string>
+    <string name="lightbox_mode">Lightbox mode</string>
+
+   
+	<string name="minVersion">Min Version</string>
+	<string name="isLaunchableActivity">Is Launchable</string>
+</resources>

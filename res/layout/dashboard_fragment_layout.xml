@@ -1,0 +1,50 @@
+<com.warrington.tepqc.brotherdashboarddesign.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+    
+    <!--  News Feed Button -->
+    <Button
+        android:id="@+id/btn_news_feed"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/feed_default"
+        android:text="News Feed" />
+     
+    <!--  Brother Button -->
+    <Button
+        android:id="@+id/brother"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/profile_default"
+        android:text="Brother Profile" />
+     
+    <!--  Bill Splitter -->
+    <Button
+        android:id="@+id/tipCalculator"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/money_default"
+        android:text="Bill Splitter" />
+     
+    <!--  Calendar -->
+    <Button
+        android:id="@+id/calendar"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/calendar_default"
+        android:text="Calendar" />
+ 
+    <!--  Events Button -->
+    <Button
+        android:id="@+id/mixer"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/mixer_default"
+        android:text="Mixer" />
+ 
+    <!--  Photos Button -->
+    <Button
+        android:id="@+id/photos"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/photos_default"
+        android:text="Photos" />
+ 
+</com.warrington.tepqc.brotherdashboarddesign.DashboardLayout>

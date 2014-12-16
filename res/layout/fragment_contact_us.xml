@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:id="@android:id/text1"
+        	android:layout_width="match_parent"
+ 			android:layout_height="fill_parent"
+        	android:orientation="vertical"
+        	android:padding="5dp"
+			android:background="#000000"
+			android:paddingLeft="20dp"
+			android:paddingRight="20dp">
+
+    <TextView
+        android:id="@+id/textTitleForContactUsPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_us_title"
+        android:textColor="#ffffff"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/firstNameRushEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="@string/contact_us_name" 
+        android:textSize="7pt"/>
+    
+    <EditText
+        android:id="@+id/FullNameEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffff"
+        android:ems="8"
+        android:inputType="text"
+        android:paddingLeft="5dp">
+		
+        <requestFocus />
+    </EditText>
+    
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/emailRushEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="@string/contact_us_email" 
+        android:textSize="7pt"/>
+
+    <EditText
+        android:id="@+id/EmailEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:ems="8"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="5dp"
+ />
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/phoneRushEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="@string/contact_us_phone" 
+        android:textSize="7pt"/>
+    
+    <EditText
+        android:id="@+id/phoneNumberEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffff"
+        android:ems="8"
+        android:inputType="phone"
+        android:paddingLeft="5dp"
+ >
+		
+        <requestFocus />
+    </EditText>
+    <TextView
+        android:paddingTop="7dp"
+        android:id="@+id/bodyOfRushEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="@string/contact_us_body" 
+        android:textSize="7pt"/>
+    <EditText
+    android:id="@+id/bodyEditText"
+    android:layout_height="50dp"
+    android:inputType="textImeMultiLine"
+    android:layout_marginTop="3dp"
+    android:paddingLeft="10dp"
+    android:lines="5"
+    android:background="#ffffff"
+    android:layout_width="fill_parent"
+    android:ems="1"
+    android:imeOptions="actionDone">
+    <requestFocus />  
+	</EditText>
+	
+    <CheckBox
+    android:id="@+id/preferEmailCheckBox"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:textColor="#ffffff"
+    android:text="@string/contact_us_method"
+    android:checked="true"
+    android:layout_width="fill_parent"
+    >
+	</CheckBox>  
+	
+	<Button
+    android:id="@+id/buttonSend"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_marginTop="10dp"
+    android:text="@string/contact_us_send"
+    android:onClick="sendFeedback"
+    android:layout_gravity="center_horizontal"
+    android:background="#E6E6E6"
+    >
+	</Button>
+    
+         </LinearLayout>
+    

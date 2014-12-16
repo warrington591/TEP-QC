@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tau_epsilon_banner" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="8dp"
+                android:text="Tau Epsilon Phi is a Greek letter social fraternity that was founded in 1910 at Columbia University in New York City."
+                android:textStyle="normal"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Mission Statement"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="8dp"
+                android:text="TO TEACH young men that there is more to be gained out of life by serv­ing oth­ers. That friend­ships are of greater value than mate­r­ial wealth or gain. That man is a social crea­ture who needs to share with oth­ers to do so will­ingly and freely. That a group is depen­dent on all of its mem­bers to con­tribute to the good of the whole rather than to work only for self-serving inter­ests. This is the ambi­tion of Tau Epsi­lon Phi.
+
+\n\nTO PROVIDE the forum through fra­ter­nity for our ambi­tions to be heard and prac­ticed. For the atmos­phere where coop­er­a­tion and giv­ing can develop and flour­ish. For a meet­ing place to share ideals and from which these dreams may be a spring­board into real­ity. For a com­mon voice through the fra­ter­nity that oth­ers may know our accom­plish­ments and our aspi­ra­tion for the beneﬁt of all men. This is the basis of Tau Epsi­lon Phi.
+
+\n\nTO GIVE to oth­ers with­out selﬁsh thought of gain or per­sonal advance­ment. To our broth­ers know­ing that oth­ers that fol­low will be the ones to reap the beneﬁts of the seeds we sow more than we will. To our friends so that they may always know in their hearts and minds that they have some­one upon whom they may depend in time of need. To our neigh­bors so that the com­mu­nity of man may be a lit­tle bet­ter for our hav­ing been there. This is the direc­tive of Tau Epsi­lon Phi.
+
+\n\nTO CREATE a bet­ter soci­ety where men have learned to value oth­ers as they value them­selves. An oppor­tu­nity for young men to learn the mes­sage of Tau Epsi­lon Phi and, hav­ing learned it, to teach oth­ers. An orga­ni­za­tion that can and will be proud of the accom­plish­ments of its mem­bers and itself with­out the arro­gance that pride often brings. A hope for a bet­ter social com­mu­nity of man and to work to bring its hopes to real­ity. This is the goal of Tau Epsi­lon Phi.
+
+\n\nTO HAVE a mem­ber­ship who respect one another and the orga­ni­za­tion for which they all stand. An orga­ni­za­tion that is not afraid to speak its mind but, at the same time, is will­ing to under­stand the needs and dreams of oth­ers. Mem­bers who prac­tice the ideals of fra­ter­nal­ism and live by the creed of Tau Epsi­lon Phi as a mat­ter of course because they believe in its val­ues. Friends, neigh­bors and asso­ciates with whom a trust and under­stand­ing that needs no words exists. This is the mis­sion of Tau Epsi­lon Phi." />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

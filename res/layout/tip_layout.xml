@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/peopleAmountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/peopleAmountTextView" />
+
+        <EditText
+            android:id="@+id/peopleAmountEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/peopleAmountTextView"
+            android:layout_alignBottom="@+id/peopleAmountTextView"
+            android:layout_toRightOf="@+id/peopleAmountTextView"
+            android:ems="5" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/billTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/peopleAmountTextView"
+            android:layout_below="@+id/peopleAmountEditText"
+            android:layout_marginTop="19dp"
+            android:text="@string/bill_text_view" />
+
+        <EditText
+            android:id="@+id/billEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/billTextView"
+            android:layout_alignBottom="@+id/billTextView"
+            android:layout_toRightOf="@+id/billTextView"
+            android:ems="5" />
+
+        <TextView
+            android:id="@+id/billTaxTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/billTextView"
+            android:layout_below="@+id/billEditText"
+            android:layout_marginTop="27dp"
+            android:text="@string/bill_tax_text_view" />
+
+        <EditText
+            android:id="@+id/billTaxEditView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/billTaxTextView"
+            android:layout_alignBottom="@+id/billTaxTextView"
+            android:layout_toRightOf="@+id/billTaxTextView"
+            android:ems="5"
+             />
+
+        <TextView
+            android:id="@+id/changeTipTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/billTaxTextView"
+            android:layout_below="@+id/billTaxEditView"
+            android:layout_marginTop="20dp"
+            android:text="@string/change_tip_text_view" />
+
+        <SeekBar
+            android:id="@+id/changeTipSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/changeTipTextView"
+            android:layout_alignRight="@+id/peopleAmountEditText"
+            android:layout_below="@+id/changeTipTextView" />
+
+        <TextView
+            android:id="@+id/tipAmountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/changeTipSeekBar"
+            android:layout_below="@+id/changeTipSeekBar"
+            android:layout_marginTop="14dp"
+            android:text="@string/tip_text_view" />
+
+        <EditText
+            android:id="@+id/tipEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tipAmountTextView"
+            android:layout_alignBottom="@+id/tipAmountTextView"
+            android:layout_toRightOf="@+id/tipAmountTextView"
+            android:ems="5"
+            android:text="@string/tip_edit_view" />
+
+        <TextView
+            android:id="@+id/finalBillTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tipAmountTextView"
+            android:layout_below="@+id/tipEditText"
+            android:layout_marginTop="21dp"
+            android:text="@string/final_bill_text_view" />
+
+        <EditText
+            android:id="@+id/finalbillEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/finalBillTextView"
+            android:layout_alignBottom="@+id/finalBillTextView"
+            android:layout_toRightOf="@+id/finalBillTextView"
+            android:ems="5" />
+
+        <TextView
+            android:id="@+id/individualAmountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/finalBillTextView"
+            android:layout_below="@+id/finalbillEditText"
+            android:layout_marginTop="47dp"
+            android:text="@string/individual_text_view"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/individualAmountEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/individualAmountTextView"
+            android:layout_alignBottom="@+id/individualAmountTextView"
+            android:layout_toRightOf="@+id/individualAmountTextView"
+            android:ems="5"
+            android:inputType="numberDecimal" />
+     
+    </RelativeLayout>
+
+</LinearLayout>

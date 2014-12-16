@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.warrington.tepqc"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        android:maxSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BrotherMain"
+            android:label="@string/title_activity_brother_main"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.warrington.tepqc.MainActivity" />
+        </activity>
+        <activity
+            android:name=".RushMain"
+            android:label="@string/title_activity_rush_main"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.warrington.tepqc.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AboutTep"
+            android:label="@string/title_activity_about_tep" >
+        </activity>
+        <activity
+            android:name=".RushMedia"
+            android:label="@string/title_activity_rush_media" >
+        </activity>
+        <activity
+            android:name=".RushEvents"
+            android:label="@string/title_activity_rush_events" >
+        </activity>
+        <activity
+            android:name=".ContactUs"
+            android:label="@string/title_activity_contact_us" >
+        </activity>
+        <activity
+            android:name=".RushCollectionActivity"
+            android:label="@string/title_activity_rush_collection" >
+        </activity>
+        <activity
+            android:name=".GridViewActivity"
+            android:label="@string/title_activity_grid_view" >
+        </activity>
+        <activity
+            android:name=".RushPhotoAlbum"
+            android:label="@string/title_activity_rush_photo_album"
+            android:parentActivityName=".RushMain" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.warrington.tepqc.RushMain" />
+        </activity>
+        <activity
+            android:name=".FullImageActivity"
+            android:label="@string/title_activity_full_image"
+            android:parentActivityName=".RushPhotoAlbum" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.warrington.tepqc.RushPhotoAlbum" />
+        </activity>
+        <activity
+            android:name=".brotherdashboarddesign.DashboardDesign"
+            android:label="@string/title_activity_dashboard_design"
+            android:parentActivityName=".brotherdashboarddesign.DashboardDesign" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.warrington.tepqc.brotherdashboarddesign.DashboardDesign" />
+        </activity>
+        <activity
+            android:name=".brotherdashboarddesign.NewsFeedActivity"
+            android:parentActivityName=".brotherdashboarddesign.DashboardDesign" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.warrington.tepqc.brotherdashboarddesign.DashboardDesign" />
+        </activity>
+        <activity
+            android:name=".brotherdashboarddesign.BrotherProfile"
+            android:parentActivityName=".brotherdashboarddesign.DashboardDesign" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.warrington.tepqc.brotherdashboarddesign.DashboardDesign" />
+        </activity>
+        <activity
+            android:name=".brotherdashboarddesign.PhotosActivity"
+            android:parentActivityName=".brotherdashboarddesign.DashboardDesign" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.warrington.tepqc.brotherdashboarddesign.DashboardDesign" />
+        </activity>
+        <activity
+            android:name=".brotherdashboarddesign.TipMainActivity"
+            android:parentActivityName=".brotherdashboarddesign.DashboardDesign" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.warrington.tepqc.brotherdashboarddesign.DashboardDesign" />
+        </activity>
+        <activity
+            android:name=".brotherdashboarddesign.MixersActivity"
+            android:parentActivityName=".brotherdashboarddesign.DashboardDesign" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.warrington.tepqc.brotherdashboarddesign.DashboardDesign" />
+        </activity>
+        <activity
+            android:name=".brotherdashboarddesign.EventsActivity"
+            android:parentActivityName=".brotherdashboarddesign.DashboardDesign" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.warrington.tepqc.brotherdashboarddesign.DashboardDesign" />
+        </activity>
+        <activity
+            android:name=".photogallery.RushGalllery"
+            android:label="@string/title_activity_galllery" >
+        </activity>
+        <activity
+            android:name=".photogallery.RushPhotos"
+            android:label="@string/title_activity_rush_photos" >
+        </activity>
+        <activity
+            android:name=".RushVideo"
+            android:label="@string/title_activity_rush_video" >
+        </activity>
+        <activity
+            android:name=".RushContactUs"
+            android:label="@string/title_activity_rush_contact_us"
+            android:parentActivityName=".AboutTep" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AboutTep" />
+        </activity>
+        <activity
+            android:name=".Alumni"
+            android:label="@string/title_activity_alumni"
+            android:parentActivityName=".RushMain" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.warrington.tepqc.RushMain" />
+        </activity>
+        <activity
+            android:name=".RushTrailer"
+            android:label="@string/title_activity_rush_trailer" >
+            <meta-data android:name="@string/minVersion" android:value="8"/>
+     		 <meta-data android:name="@string/isLaunchableActivity" android:value="true"/>
+        </activity>
+    </application>
+
+</manifest>
